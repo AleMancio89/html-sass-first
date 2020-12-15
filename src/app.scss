@@ -1,0 +1,9 @@
+/* 
+Creare un semplice index.html con dei titoli, paragrafi e bottoni.
+Applicare ai titoli e ai bottoni lo stesso colore tramite una variabile definita in Sass.
+*/
+$color: red;
+
+h1, button {
+    color: $color;
+} 
